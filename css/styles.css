@@ -28,15 +28,15 @@ Background Color (Light Grey): #cdcdcd
                 font-size: 16pt;
                 line-height: 1.5;
                 }
-                .favicon{ 
-                  width: var(--strd);
-                  height: var(--strd);
-                }
+               
           
              img {
-                width: var(--hfst);
-                height: var(--hfst);
+                width: var(--strd);
+                height: var(--strd);
+          
                 }
+
+                
              h1 {
                 font-size: var(--fsz2);        
                 font-weight: var(--fw);
