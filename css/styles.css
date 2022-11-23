@@ -1,15 +1,15 @@
 /*
 Colors used
 
-Text Color (Black): #000;
+Text Color (Black): #392f5a;
 Primary Color (Dark Teal): #008282;
 Secondary Color (Green): #026b29;
 Background Color (Light Grey): #cdcdcd
  */
  :root {
-  --primary-color: #fa008d;
-  --secondary-color: #00e9f4;
-  --light-grey: #cdcdcd;
+  --primary-color: #ff008c;
+  --secondary-color: #175676;
+  --oat: #faf0ca;
   --yell-1: #edc655;
   --yell-2: #fcffad;
   --sunset: #f76414; 
@@ -18,14 +18,16 @@ Background Color (Light Grey): #cdcdcd
   --fw: 700;
   --strd: 100px;
   --hfst:50px;
+  
 }
  
             
              body {
-                background-color: var(--light-grey);
+                background-color: var(--oat);
                 font-family: 'Merriweather', serif;
                 font-weight: 400;
                 font-size: 16pt;
+                color: #392f5a;
                 line-height: 1.5;
                 }
                
@@ -123,9 +125,7 @@ Background Color (Light Grey): #cdcdcd
                   margin: 0 auto;
                 }
 
-                * {
-                  box-sizing: border-box;
-                }
+
 
                 .page-header {
                   display: flex;
@@ -135,7 +135,7 @@ Background Color (Light Grey): #cdcdcd
                 }
 
 
-                .page-header__item {
+                .spage-header__item {
                   flex: 0 1 100px;
                 }
 
@@ -166,6 +166,21 @@ Background Color (Light Grey): #cdcdcd
                   background-color: var(--secondary-color);
                   grid-template-columns: 300px 300px 300px;
                   grid-template-rows: 300px 300px;
+                }
+
+                .fun-facts {
+                  display:inline-block;
+                  height: 300px;
+                  justify-content:space-around
+                   
+                 }
+                 .contact-form {
+                  display: inline-block;
+                  height: 300px;
+                  justify-content: space-around;
+                }
+                .address {
+                  height: 150px;
                 }
                 @media all and (max-width: 500px) {
                   .grid {

@@ -1,8 +1,9 @@
 body {
-    background-color: #cdcdcd;
+    background-color: #faf0ca;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     font-size: 16pt;
+    color: #392f5a;
     line-height: 1.5;
     }
     .favicon{ 
@@ -31,29 +32,26 @@ body {
     line-height: 1.8;
     }
  a {
-    color: #fa008d;
+    color: #ff008c;
    }
  a:visited {
  /* visited link */
-    color: #fa008d;
+    color: #175676
     }
 
  a:active {
  /* selected link */
-    color: #00e9f4;
+    color: #175676;
     }
  a:hover, a:focus {
  /* No underlining when hovering over a link */
     text-decoration: none;
    }
  .button {
- /* overwrites browser defaults and resets the border */
     border: none;
- /* takes the font from the outer container */
     font-family: inherit;
- /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-    background-color: #00e9f4;
-    color: #fa008d;
+    background-color: #ff8811;
+    color: #175676;
     text-decoration: none;
  /*adds spacing to the button (this will be discussed more in-depth later) */
     padding: 10px;
@@ -73,8 +71,8 @@ body {
  /* takes the font from the outer container */
     font-family: inherit;
  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-    background-color: #00e9f4;
-    color: #fa008d;
+    background-color: #ff8811;
+    color: #175676;
     text-decoration: none;
  /*adds spacing to the button (this will be discussed more in-depth later) */
     padding: 10px;
@@ -180,7 +178,7 @@ body {
     }
 
     .grid__item {
-      background-color: #00e9f4;
+      background-color: #ff8811;
       -ms-grid-columns: 300px 300px 300px;
       grid-template-columns: 300px 300px 300px;
       -ms-grid-rows: 300px 300px;
@@ -233,6 +231,21 @@ body {
 
     -ms-grid-column: 3;
     grid-column: 3;
+  }
+
+  .fun-facts {
+   display:inline-block;
+   height: 300px;
+   justify-content:space-around
+    
+  }
+  .contact-form {
+    display: inline-block;
+    height: 300px;
+    justify-content: space-around;
+  }
+  .address {
+    height: 150px;
   }
     @media all and (max-width: 500px) {
       .grid {
