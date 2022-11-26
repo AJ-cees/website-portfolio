@@ -8,7 +8,8 @@ Background Color (Light Grey): #cdcdcd
  */
  :root {
   --primary-color: #ff008c;
-  --secondary-color: #175676;
+  --secondary-color: #3abeff;
+  --tertiary-color: #ff8811
   --oat: #faf0ca;
   --yell-1: #edc655;
   --yell-2: #fcffad;
@@ -59,12 +60,12 @@ Background Color (Light Grey): #cdcdcd
                }
              a:visited {
              /* visited link */
-                color: var(--primary-color);
+                color: var(--secondary-color);
                 }
 
              a:active {
              /* selected link */
-                color: var(--secondary-color);
+                color: var(--tertiary-color);
                 }
              a:hover, a:focus {
              /* No underlining when hovering over a link */
@@ -182,6 +183,7 @@ Background Color (Light Grey): #cdcdcd
                 .address {
                   height: 150px;
                 }
+
                 @media all and (max-width: 500px) {
                   .grid {
                     grid-template-columns: 1fr;

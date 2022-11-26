@@ -36,12 +36,12 @@ body {
    }
  a:visited {
  /* visited link */
-    color: #175676
+    color: #3abeff
     }
 
  a:active {
  /* selected link */
-    color: #175676;
+    color: #ff8811;
     }
  a:hover, a:focus {
  /* No underlining when hovering over a link */
