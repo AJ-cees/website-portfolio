@@ -95,7 +95,12 @@ body {
  /* reduces the opacity of the button to 80% */
      opacity: 0.8;
     }
-     
+     .suburb {
+      
+      max-width: 100%;
+      margin: auto;
+      
+     }
     .page-footer {
       clear: both;
       position: relative; 
@@ -297,3 +302,21 @@ body {
       -webkit-animation: 4s color-change infinite alternate linear;
               animation: 4s color-change infinite alternate linear;
     }
+
+    @keyframes cloud-move {
+      from {
+        transform: translate(0, 50px);
+      }
+      to {
+        transform: translate(200px, 50px);
+      }
+    }
+    .cloud {
+      animation-duration: 30s;
+      animation-name: cloud-move;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear;
+    }
+
+  
